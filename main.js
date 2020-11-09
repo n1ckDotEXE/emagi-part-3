@@ -1,5 +1,7 @@
 const translateWord = require('./translate-word.js');
 const encodeWord = require('./encode-word.js');
+const getCategory = require('./getCategory.js');
+const search = require('./search.js');
 
 
 const command = process.argv[2];
